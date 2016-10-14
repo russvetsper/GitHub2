@@ -1,0 +1,17 @@
+{
+  "name": "github-project2",
+  "description": "github project",
+  "main": "gulpfile.js",
+  "authors": [
+    "russ vetsper"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -9,7 +9,7 @@ Repo.prototype.getRepos = function(name) {
     console.log(JSON.stringify(response));
 
     for(var i = 0; i <= response.length; i++){
-      $('ul#repos').append("<li>" + response[i] .name  + " Description: " +  response[i] .description  +"</li>");
+      $('ul#repos').append("<li>" + response[i] .name  + "---- DESCRIPTION: " +  response[i] .description  +"</li>");
     }
 
   }).fail(function(error){
